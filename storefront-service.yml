@@ -15,3 +15,8 @@ spring:
                 service-name: storefront-service
 
 
+my:
+    test:
+        value: Hello from server local
+
+
