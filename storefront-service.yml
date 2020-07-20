@@ -17,6 +17,6 @@ spring:
 
 my:
     test:
-        value: Hello from server local
+        value: Refreshed hello from server local
 
 
