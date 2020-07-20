@@ -1,4 +1,7 @@
+management.endpoints.web.exposure.include=*
+
 my:
         test:
                 value: Hello from server
                 
+
