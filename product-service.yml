@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: product-service
+  cloud:
+    consul:
+      host: localhost
+      discovery:
+        port: 8081
+        instance-id: ${spring.application.name}:1
+        health-check-path: /health-check
+        health-check-interval: 20s
+        service-name: product-service
+
+
+
