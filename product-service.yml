@@ -12,5 +12,3 @@ spring:
         instance-id: ${spring.application.name}:1
         service-name: product-service
 
-
-
