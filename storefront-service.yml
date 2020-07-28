@@ -1,5 +1,5 @@
 server:
-    port: 8080
+    port: 8083
 
 spring:
     application:
@@ -10,7 +10,7 @@ spring:
         consul:
             host: localhost
             discovery:
-                port: 8080
+                port: 8083
                 instance-id: ${spring.application.name}:1
                 service-name: storefront-service
 
