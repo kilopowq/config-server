@@ -13,6 +13,10 @@ spring:
                 port: 8083
                 instance-id: ${spring.application.name}:1
                 service-name: storefront-service
+kafka:
+    server: localhost:9092
+    producer:
+        id: kilopo.event.producer
 
 my:
     test:

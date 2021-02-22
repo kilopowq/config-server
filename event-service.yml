@@ -13,9 +13,8 @@ spring:
                 port: 8084
                 instance-id: ${spring.application.name}:1
                 service-name: event-service
-
-my:
-    test:
-        value: Newly refreshed hello from server local
-
+kafka:
+    server: localhost:9092
+    group:
+        id: kilopo.event.consumer
 
